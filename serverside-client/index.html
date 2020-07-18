@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Find The Queen</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="rps-wrapper">
+      <ul id="events"></ul>
+      <div class="controls">
+          <button id="1" class="turn">1</button>
+          <button id="2" class="turn">2</button>
+          <button id="3" class="turn">3</button>   
+      </div>
+      <button onclick="Refresh()" id="say">REFRESH SERVER</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="src/client.js"></script>
+  </body>
+</html>
